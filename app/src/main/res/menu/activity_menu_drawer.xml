@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_basico"
+            android:icon="@drawable/ic_test"
+            android:title="Test Basico" />
+        <item
+            android:id="@+id/nav_completo"
+            android:icon="@drawable/ic_test"
+            android:title="Test Completo" />
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuracion" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invitar a un amigo" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>

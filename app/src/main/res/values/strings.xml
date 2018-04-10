@@ -54,4 +54,21 @@
     <string name="P51">Revisar y dar mantenimiento a artefactos eléctricos, electrónicos y computadoras.</string>
     <string name="P52">Enseñar a niños de 0 a 5 años.</string>
     <string name="test_vocacional">Test Vocacional</string>
+
+
+    <string-array name="names">
+        <item>Español</item>
+        <item>Quechua</item>
+
+    </string-array>
+    <string name="title_activity_menu">Test Vocacional</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Test Vocacional</string>
+    <string name="nav_header_subtitle">App en desarrollo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

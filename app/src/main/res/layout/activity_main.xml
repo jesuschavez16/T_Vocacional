@@ -9,57 +9,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.jorda.t_vocacional.MainActivity"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    >
 
 
     <TextView
+
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="@string/test_vocacional"
         android:textColor="@color/colorPrimary"
         android:shadowColor="@color/colorPrimaryDark"
-        android:fontFamily="casual"
+        android:fontFamily="@string/Instruccion1"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="53dp"
         android:textSize="30sp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Instruccion1"
-        android:textSize="15sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="monospace"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Instruccion2"
-        android:textSize="15sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="monospace"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Instruccion3"
-        android:textSize="15sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:fontFamily="monospace"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginTop="60dp"/>
 
     <CheckBox
         android:id="@+id/R1"
@@ -67,6 +34,7 @@
         android:layout_height="wrap_content"
         android:padding="4dp"
         android:layout_margin="10dp"
+        android:layout_marginTop="60dp"
         android:text="@string/P1"
         />
 
