@@ -6,17 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 public class InicioActivity extends AppCompatActivity implements View.OnClickListener {
 
     Spinner spinner1;
-    Button comenzar;
+    ImageView comenzar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_inicio );
-        comenzar = (Button) findViewById( R.id.btncomenzar );
+        comenzar = (ImageView) findViewById( R.id.comenzar );
         spinner1 = (Spinner) findViewById( R.id.spinner );
         comenzar.setOnClickListener( this );
         ArrayAdapter<String> myadapter = new ArrayAdapter<String>(InicioActivity.this,
@@ -28,7 +29,7 @@ public class InicioActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.btncomenzar:
+            case R.id.comenzar:
 
                 Intent intent = new Intent( this, MenuActivity.class );
                 startActivity( intent );

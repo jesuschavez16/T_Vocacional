@@ -16,23 +16,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class MenuActivity extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener{
 
-    LinearLayout basico, completo, cerrar ;
+    ImageView basico, completo ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_menu );
 
-        basico = (LinearLayout) findViewById( R.id.btn_basico );
-        completo = (LinearLayout) findViewById( R.id.btn_completo );
-        cerrar= (LinearLayout) findViewById( R.id.btn_salir ) ;
+        basico = (ImageView) findViewById( R.id.btn_basico );
+        completo = (ImageView) findViewById( R.id.btncompleto );
+
         basico.setOnClickListener( this );
         completo.setOnClickListener( this );
-        cerrar.setOnClickListener( this );
+
 
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
@@ -122,13 +123,11 @@ public class MenuActivity extends AppCompatActivity  implements NavigationView.O
                 Intent intent = new Intent( this, TestBasicoActivity.class );
                 startActivity( intent );
                 break;
-            case R.id.btn_completo:
+            case R.id.btncompleto:
                 Intent i = new Intent( this, TestBasicoActivity.class );
                 startActivity( i );
                 break;
-            case R.id.btn_salir:
-                finish();
-                break;
+
         }
     }
 }

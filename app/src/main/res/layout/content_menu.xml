@@ -7,125 +7,37 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MenuActivity"
     tools:showIn="@layout/app_bar_menu"
-    android:paddingBottom="16dp"
-    android:paddingTop="16dp"
-    android:paddingRight="16dp"
-    android:paddingLeft="16dp"
     android:orientation="vertical"
-    android:layout_centerHorizontal="true"
-    android:layout_gravity="center_horizontal"
-    android:gravity="center_horizontal">
+    android:background="@drawable/fondo02">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:src="@drawable/frase_test"
+        android:layout_marginTop="20dp"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp">
+        android:layout_marginTop="80dp">
 
-        <LinearLayout
-            android:id="@+id/btn_basico"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/testbasico"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_horizontal" />
-            <TextView
+            <ImageView
+                android:id="@+id/btn_basico"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Test Basico"
-                android:textStyle="italic"
-                android:textColor="@color/colorPrimaryDark"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/btn_completo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="45dp">
-            <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-
-                android:background="@drawable/testbompleto"
+                android:layout_height="120dp"
+                android:src="@drawable/tes_basico"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Test Completo"
-                android:textStyle="italic"
-                android:textColor="@color/colorPrimaryDark"/>
-        </LinearLayout>
-
-
-
 
     </LinearLayout>
-    <LinearLayout
+
+    <ImageView
+        android:id="@+id/btncompleto"
+        android:layout_height="120dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:background="@drawable/ajustes"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Configuracion"
-                android:textStyle="italic"
-                android:textColor="@color/colorPrimaryDark"/>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/btn_salir"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="59dp"
-            android:orientation="vertical">
-            <Button
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:background="@drawable/potencia"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:text="Cerrar Sesion"
-                android:textStyle="italic"
-                android:textColor="@color/colorPrimaryDark"/>
+        android:src="@drawable/tes_completo"
+        android:layout_marginTop="15dp"/>
 
-        </LinearLayout>
-
-
-
-
-    </LinearLayout>
 
 </LinearLayout>

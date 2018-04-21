@@ -9,9 +9,18 @@
     android:paddingRight="16dp"
     android:paddingLeft="16dp"
     android:orientation="vertical"
-    android:background="@drawable/fondo"
+    android:background="@drawable/fondo_pantalla"
     android:gravity="center"
-    tools:context=".InicioActivity">
+    tools:context=".InicioActivity"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/txtxselc_idioma"
+        android:layout_marginTop="150dp"/>
 
     <Spinner
         android:id="@+id/spinner"
@@ -19,17 +28,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:scrollbarStyle="insideOverlay"/>
+        android:scrollbarStyle="insideOverlay"
+        android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btncomenzar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FF000C"
-        android:text="Comenzar"
-        android:textColor="#fff"
-        android:textStyle=""
-        android:layout_marginTop="280dp"/>
+
+
+    <ImageView
+        android:id="@+id/comenzar"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:src="@drawable/comenzar"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
 
 
 
