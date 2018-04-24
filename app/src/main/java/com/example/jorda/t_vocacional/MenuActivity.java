@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -21,18 +22,18 @@ import android.widget.LinearLayout;
 
 public class MenuActivity extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener{
 
-    ImageView basico, completo ;
+    //ImageView basico, completo ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_menu );
 
-        basico = (ImageView) findViewById( R.id.btn_basico );
-        completo = (ImageView) findViewById( R.id.btncompleto );
+        //basico = (ImageView) findViewById( R.id.btn_basico );
+        //completo = (ImageView) findViewById( R.id.btncompleto );
 
-        basico.setOnClickListener( this );
-        completo.setOnClickListener( this );
+        //basico.setOnClickListener( this );
+        //completo.setOnClickListener( this );
 
 
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
@@ -96,13 +97,16 @@ public class MenuActivity extends AppCompatActivity  implements NavigationView.O
         int id = item.getItemId();
         Fragment fragment = null;
         Boolean fragmentoSeleccionado = false;
+        FragmentManager fm = getSupportFragmentManager();
 
+        if (id == R.id.nav_inicio) {
+            fm.beginTransaction().replace( R.id.escenario, new inicioFragment() ).commit();
 
-        if (id == R.id.nav_basico) {
-
-
-        } else if (id == R.id.nav_completo) {
-
+        }else if (id == R.id.nav_basico) {
+            fm.beginTransaction().replace( R.id.escenario, new test_basicoFragment() ).commit();
+        }
+        else if (id == R.id.nav_completo) {
+            fm.beginTransaction().replace( R.id.escenario, new test_completoFragment() ).commit();
         }  else if (id == R.id.nav_configuracion) {
 
         } else if (id == R.id.nav_share) {
@@ -118,16 +122,16 @@ public class MenuActivity extends AppCompatActivity  implements NavigationView.O
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.btn_basico:
-                Intent intent = new Intent( this, TestBasicoActivity.class );
-                startActivity( intent );
-                break;
-            case R.id.btncompleto:
-                Intent i = new Intent( this, TestBasicoActivity.class );
-                startActivity( i );
-                break;
+        //switch (view.getId()){
+            //case R.id.btn_basico:
+                //Intent intent = new Intent( this, TestBasicoActivity.class );
+                //startActivity( intent );
+                //break;
+            //case R.id.btncompleto:
+                //Intent i = new Intent( this, TestBasicoActivity.class );
+               // startActivity( i );
+                //break;
 
-        }
+        //}
     }
 }

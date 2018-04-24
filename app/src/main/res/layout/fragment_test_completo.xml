@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c3e50"
+    tools:context=".test_completoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Test  de Orientacion Vocacional Completo"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="italic"
+        tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        tools:textColor="#ecf0f1"
+        tools:textSize="18sp" />
+
+    <Button
+        android:id="@+id/c_test"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="370dp"
+        android:background="#33cccc"
+        android:text="Comenzar Test" />
+
+</FrameLayout>

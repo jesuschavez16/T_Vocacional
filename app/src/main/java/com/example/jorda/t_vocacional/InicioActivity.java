@@ -11,25 +11,20 @@ import android.widget.Spinner;
 
 public class InicioActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Spinner spinner1;
+
     ImageView comenzar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_inicio );
-        comenzar = (ImageView) findViewById( R.id.comenzar );
-        spinner1 = (Spinner) findViewById( R.id.spinner );
+        comenzar = (ImageView) findViewById( R.id.img_espanol );
         comenzar.setOnClickListener( this );
-        ArrayAdapter<String> myadapter = new ArrayAdapter<String>(InicioActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray( R.array.names ));
-        myadapter.setDropDownViewResource( android.R.layout.simple_spinner_dropdown_item );
-        spinner1.setAdapter( myadapter );
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.comenzar:
+            case R.id.img_espanol:
 
                 Intent intent = new Intent( this, MenuActivity.class );
                 startActivity( intent );
