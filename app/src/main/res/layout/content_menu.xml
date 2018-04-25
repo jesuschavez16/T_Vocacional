@@ -8,36 +8,10 @@
     tools:context=".MenuActivity"
     tools:showIn="@layout/app_bar_menu"
     android:orientation="vertical"
+    android:id="@+id/escenario"
     android:background="@drawable/fondo02">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="90dp"
-        android:src="@drawable/frase_test"
-        android:layout_marginTop="20dp"
-        />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="80dp">
-
-            <ImageView
-                android:id="@+id/btn_basico"
-                android:layout_width="wrap_content"
-                android:layout_height="120dp"
-                android:src="@drawable/tes_basico"
-                />
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/btncompleto"
-        android:layout_height="120dp"
-        android:layout_width="wrap_content"
-        android:src="@drawable/tes_completo"
-        android:layout_marginTop="15dp"/>
 
 
 </LinearLayout>
