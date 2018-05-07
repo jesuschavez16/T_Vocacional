@@ -55,7 +55,8 @@
     <string name="P51">Revisar y dar mantenimiento a artefactos eléctricos, electrónicos y computadoras.</string>
     <string name="P52">Enseñar a niños de 0 a 5 años.</string>
     <string name="test_vocacional">Test Vocacional</string>
-
+    <string name="c_test_basico">Comenzar Test Basico</string>
+    <string name="f_titulo_basico">Test de Orientacion Vocacional Basico</string>
 
     <string-array name="names">
         <item>Español</item>
@@ -71,5 +72,12 @@
     <string name="action_settings">Configuracion</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Test de Orientacion bocacional Basico</string>
+    <string name="hello_blank_fragment">Test de Orientacion vocacional Basico</string>
+    <string name="inicio">Inicio</string>
+    <string name="test_basico">Test Basico</string>
+    <string name="test_completo">Test Completo</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="communicate">Communicate</string>
+    <string name="invitar_a_un_amigo">Invitar a un amigo</string>
+    <string name="help">Ayuda</string>
 </resources>

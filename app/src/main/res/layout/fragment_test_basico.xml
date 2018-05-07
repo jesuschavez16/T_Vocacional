@@ -14,7 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="420dp"
         android:background="#33cccc"
-        android:text="Comenzar Test Basico" />
+        android:text="@string/c_test_basico" />
 
     <TextView
         android:id="@+id/textView3"
@@ -24,7 +24,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:shadowColor="#97ffcf"
-        android:text="Test de Orientacion Vocacional Basico"
+        android:text="@string/f_titulo_basico"
         android:textColor="#ecf0f1"
         android:textSize="18sp" />
 
