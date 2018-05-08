@@ -1,8 +1,6 @@
 package com.example.jorda.t_vocacional;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -31,7 +29,7 @@ public class test_basicoFragment extends Fragment implements View.OnClickListene
         switch (view.getId()){
             case R.id.b_test:
 
-                Intent intent = new Intent( getActivity(), MainActivity.class );
+                Intent intent = new Intent( getActivity(), test_basico_activity.class );
                 getActivity().startActivity( intent );
                 break;
         }

@@ -80,4 +80,32 @@
     <string name="communicate">Communicate</string>
     <string name="invitar_a_un_amigo">Invitar a un amigo</string>
     <string name="help">Ayuda</string>
+    <string name="calificar">Calificar</string>
+
+    <string name="tc_valor_0">No Conozco</string>
+    <string name="tc_valor_1">Me desagrada</string>
+    <string name="tc_valor_2">Siento indiferencia</string>
+    <string name="tc_valor_3">Me agradaría</string>
+
+    <string name="tc_1">TC-1</string>
+    <string name="tc_2">TC-2</string>
+    <string name="tc_4">tc-4</string>
+    <string name="tc_3">tc-3</string>
+    <string name="tc_5">tc-5</string>
+    <string name="tc_6">tc-6</string>
+    <string name="tc_7">tc-7</string>
+    <string name="tc_8">tc-8</string>
+    <string name="tc_9">tc-9</string>
+    <string name="tc_10">tc-10</string>
+    <string name="tc_11">tc-11</string>
+    <string name="tc_12">tc-12</string>
+    <string name="tc_13">tc-13</string>
+    <string name="tc_14">tc-14</string>
+    <string name="tc_15">tc-15</string>
+    <string name="tc_16">tc-16</string>
+    <string name="tc_17">tc-17</string>
+    <string name="tc_18">tc-18</string>
+    <string name="tc_19">tc-19</string>
+    <string name="tc_20">tc-20</string>
+
 </resources>

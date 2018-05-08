@@ -76,5 +76,30 @@
     <string name="invitar_a_un_amigo">Mink\'ayman hoq quchu</string>
     <string name="help">Hayma</string>
 
+    <string name="calificar">Calificar*</string>
+
+    <string name="tc_valor_0">0</string>
+    <string name="tc_valor_1">1</string>
+    <string name="tc_valor_2">2</string>
+    <string name="tc_valor_3">3</string>
+
+    <string name="tc_1">TC-1</string>
+    <string name="tc_2">TC-2</string>
+    <string name="tc_4">tc-4</string>
+    <string name="tc_3">tc-3</string>
+    <string name="tc_5">tc-5</string>
+    <string name="tc_6">tc-6</string>
+    <string name="tc_8">tc-8</string>
+    <string name="tc_9">tc-9</string>
+    <string name="tc_10">tc-10</string>
+    <string name="tc_11">tc-11</string>
+    <string name="tc_12">tc-12</string>
+    <string name="tc_13">tc-13</string>
+    <string name="tc_14">tc-14</string>
+    <string name="tc_15">tc-15</string>
+    <string name="tc_16">tc-16</string>
+    <string name="tc_17">tc-17</string>
+    <string name="tc_18">tc-18</string>
+    <string name="tc_20">tc-20</string>
 
 </resources>
