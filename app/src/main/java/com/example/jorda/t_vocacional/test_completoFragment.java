@@ -28,9 +28,9 @@ public class test_completoFragment extends Fragment implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.b_test:
+            case R.id.c_test:
 
-                Intent intent = new Intent( getActivity(), TestCompletoActivity.class );
+                Intent intent = new Intent( getActivity(), test_comple_activity.class );
                 getActivity().startActivity( intent );
                 break;
         }

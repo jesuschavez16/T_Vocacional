@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2c3e50"
+    android:background="@color/primaryLightColor"
     tools:context=".test_completoFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -14,12 +14,12 @@
         android:layout_height="29dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Test  de Orientacion Vocacional Completo"
+        android:text="Test de Orientacion Vocacional Completo"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textStyle="italic"
         tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"
-        tools:textColor="#ecf0f1"
-        tools:textSize="18sp" />
+        tools:textColor="@color/primaryTextColor"
+        tools:textSize="38dp" />
 
     <Button
         android:id="@+id/c_test"
@@ -27,7 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="370dp"
-        android:background="#33cccc"
-        android:text="Comenzar Test" />
+        android:background="@color/secondaryColor"
+        android:textColor="@color/secondaryTextColor"
+        android:text="@string/comenzar_test" />
 
 </FrameLayout>

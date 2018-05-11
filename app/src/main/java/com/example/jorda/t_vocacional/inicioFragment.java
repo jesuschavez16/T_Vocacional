@@ -39,9 +39,9 @@ public class inicioFragment extends Fragment  implements View.OnClickListener {
                 Intent intent = new Intent( getActivity(), test_basico_activity.class );
                 getActivity().startActivity( intent );
                 break;
-            case R.id.btncompleto:
 
-                Intent i = new Intent( getActivity(), test_completoFragment.class );
+            case R.id.btncompleto:
+                Intent i = new Intent( getActivity(), test_comple_activity.class );
                 getActivity().startActivity( i );
                 break;
         }

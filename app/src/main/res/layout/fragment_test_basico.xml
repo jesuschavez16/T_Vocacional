@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="420dp"
-        android:background="#33cccc"
+        android:background="@color/primaryLightColor"
         android:text="@string/c_test_basico" />
 
     <TextView
